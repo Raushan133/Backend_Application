@@ -23,27 +23,40 @@ This API is built with security, efficiency, and scalability in mind, ensuring s
 --> Testing: Postman
 
 📌 API Endpoints & Usage
+
 1️⃣ User Registration
-Endpoint: POST /api/auth/register
-Description: Registers a new user and stores their information securely.
+
+--> Endpoint: POST /api/auth/register
+
+--> Description: Registers a new user and stores their information securely.
 
 
 2️⃣ User Login
-Endpoint: POST /api/auth/login
-Description: Authenticates a user and generates a JWT token for session management.
+
+--> Endpoint: POST /api/auth/login
+
+--> Description: Authenticates a user and generates a JWT token for session management.
 
 
 3️⃣ Search User by Username or Email
-Endpoint: GET /api/auth/search?query=username_or_email
-Description: Fetches user details except for the password.
+
+--> Endpoint: GET /api/auth/search?query=username_or_email
+
+--> Description: Fetches user details except for the password.
 
 
 4️⃣ Get User Profile (Protected Route)
-Endpoint: GET /api/auth/profile
-Description: Fetches logged-in user’s full profile
+
+--> Endpoint: GET /api/auth/profile
+
+--> Description: Fetches logged-in user’s full profile
 
 📌 Testing with Postman
+
 1️⃣ Register a user ✅
+
 2️⃣ Login and get JWT token ✅
+
 3️⃣ Search user by username/email ✅
+
 4️⃣ Access profile using the JWT token ✅
