@@ -11,11 +11,12 @@ This API is built with security, efficiency, and scalability in mind, ensuring s
 
 
 📌 Tech Stack Used
-Backend: Express.js (Node.js)
-Database: MongoDB
-Authentication: JWT (JSON Web Token)
-Security: bcrypt for password hashing
-Testing: Postman
+
+--> Backend: Express.js (Node.js)
+--> Database: MongoDB
+--> Authentication: JWT (JSON Web Token)
+--> Security: bcrypt for password hashing
+--> Testing: Postman
 
 📌 API Endpoints & Usage
 1️⃣ User Registration
